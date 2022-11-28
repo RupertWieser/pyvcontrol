@@ -18,7 +18,6 @@
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
 import logging
 
 ACCESS_MODE = 'access_mode'
@@ -78,6 +77,9 @@ VITOCAL_WO1C = {
 
     # Anlagentyp (muss 204D sein)
     'Anlagentyp': {ADDRESS: '00F8', LENGTH: 4, UNIT: 'DT'},
+    
+    # Temperature of Terminal Energy Storage (Pufferspeichertemperatur)
+    "TES_Temperature" = {ADDRESS: '010B', LENGTH: 2, UNIT: 'IS10'}
 
     # --------- Menüebene -------
 
